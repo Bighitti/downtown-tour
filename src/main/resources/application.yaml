@@ -2,9 +2,9 @@ spring:
   application:
     name: DownTown tour
   datasource:
-    url: jdbc:mysql://${DOWNTOWNTOUR_DB_ADDRESS}:${DOWNTOWNTOUR_DB_PORT}/${DOWNTOWNTOUR_DB_SCHEMA}
-    username: ${DOWNTOWNTOUR_DB_USERNAME}
-    password: ${DOWNTOWNTOUR_DB_PASSWORD}
+    url: jdbc:mysql://localhost:3306/downtown_tour
+    username: downtown_tour_app
+    password: downtown_tour_pas
   jpa:
     hibernate:
       ddl-auto: none
